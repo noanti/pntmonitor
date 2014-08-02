@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_traffic_manager_mobile_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#000000"
+            android:text="数据流量" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_traffic_manager_wifi_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"
+            android:text="无线流量" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_traffic_manager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/background" >
+    </ListView>
+
+</LinearLayout>

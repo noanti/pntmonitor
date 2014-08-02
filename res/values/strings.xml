@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PnTmonitor</string>
+    <string name="task_manager">任务管理</string>
+    <string name="traffic_manager">流量统计</string>
+</resources>

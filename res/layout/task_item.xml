@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_marginTop="2dip"
+        android:src="@drawable/ic_launcher" 
+        android:layout_alignParentLeft="true"
+        android:id="@+id/iv_task_icon"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/iv_task_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_task_name"
+            android:text="mingzi"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+
+        <TextView
+            android:text="neicun"
+            android:id="@+id/tv_task_memory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_task_checked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:focusable="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="7dip"
+        android:layout_marginTop="7dip"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       >
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ss" />
+    <Button
+        android:id="@+id/button1"
+        android:text="process"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_below="@id/tv_main"
+        />
+    <Button 
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_below="@id/button1"	/>
+</RelativeLayout>
