@@ -1,4 +1,4 @@
 pntmonitor
 ==========
 
-安卓平台流量与进程监控程序
+>An andorid tool to monitor processes memory and traffic
